@@ -1,17 +1,15 @@
 ********** Section 1 **********
-Assignment #3: Dynamic Data Structures 
 Tweet Manager - CIS 2500
 Hisham Issa
-hissa01
 hissa01@uoguelph.ca
 1194466
-31/03/2022      //not final
+31/03/2022      
 
 ********** Section 2 **********
 make
 ./A3
 
-********** Section 3 **********  (explain each completed component)
+********** Section 3 ********** 
 createTweet.c: prompts user to enter a username, than a tweet, it than uses 
 the ascii values from the username characters plus the length of the tweet
 to generate a unique ID for the user, and stores it in the struct tweet
@@ -30,15 +28,12 @@ saveTweetsToFile.c: prompts the user to enter a filename to save the tweet too
 and than copies the tweets contents, the users name and their generated ID
 onto sed file
 
-loadTweetsFromFile.c prompts the user to enter a filename to load tweet from
+loadTweetsFromFile.c: prompts the user to enter a filename to load tweet from
 and imports it into the struct
 
-********** Section 4 **********  (limitations)
-I could not complete the sortID function
+sortID.c: sorts the tweets based on the user id
 
-********** Section 5 **********  (improvements)
-In the future I am going to try to make my program cleaner and make the link list easier
-to follow and understand. Also I would like to add more error checking mechanisms into my
-functions. I need more time and practice to get better at that.
+--HELPER FUNCTION--
+addNodeToList(): adds a newly created node to linked list
 
 
